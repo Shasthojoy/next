@@ -1,0 +1,17 @@
+scalar Json
+scalar Date
+
+type Meta {
+  # Healthcheck endpoint. Should return 200 immediately if we are healthy
+  health: Int!
+
+  # HTTP Request Headers
+  headers: Json
+  # Current time on server
+  serverTime: Date
+}
+
+schema {
+  query: RootQuery
+  mutation: RootMutation
+}

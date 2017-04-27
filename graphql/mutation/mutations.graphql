@@ -1,0 +1,7 @@
+type RootMutation {
+  login(email: String!, password: String!): LoginResult
+}
+
+type LoginResult {
+  valid: Boolean
+}

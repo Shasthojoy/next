@@ -1,0 +1,12 @@
+type RootQuery {
+  user(id: String, email: String): User
+}
+
+type User {
+  id: String!
+  created: String
+  isAdmin: Boolean
+  name: String
+  lastSeen: String
+  email: String
+}
