@@ -2,6 +2,8 @@
 
 # Custom Koa Server example
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brigadehub/next.svg)](https://greenkeeper.io/)
+
 ## How to use
 
 Download the example [or clone the repo](https://github.com/zeit/next.js):
