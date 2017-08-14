@@ -1,7 +1,0 @@
-{
-  "presets": [
-    "next/babel",
-    "babel-preset-node6-es6",
-    "stage-0"
-  ],
-}

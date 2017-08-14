@@ -1,0 +1,11 @@
+{
+  "name": "@brigadehub/client-web",
+  "version": "0.0.1-rc1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ozzy Haven <npm@therebelrobot.com> (@therebelrobot)",
+  "license": "MIT"
+}
