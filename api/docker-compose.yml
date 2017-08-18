@@ -1,0 +1,8 @@
+postgresd:
+  image: postgres:9.6.2
+  ports:
+    - "5444:5432"
+  environment:
+    - POSTGRES_USER=brigadehub
+    - POSTGRES_PASSWORD=secret
+    - POSTGRES_DB=brigadehub

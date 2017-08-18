@@ -4,8 +4,24 @@
   "description": "Backend API for Brigadehub Next",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "start:develop": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "pg-migrate -f ./config/migration.js"
   },
   "author": "Ozzy Haven <npm@therebelrobot.com> (@therebelrobot)",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "@therebel/log": "^1.0.0",
+    "express": "^4.15.4",
+    "express-jwt": "^5.3.0",
+    "jsonwebtoken": "^7.4.2",
+    "node-pg-migrate": "^2.7.0",
+    "postgraphql": "^3.4.0"
+  },
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "eslint": "^4.4.1",
+    "nodemon": "^1.11.0"
+  }
 }
